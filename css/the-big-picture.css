@@ -5,15 +5,29 @@
  */
 
 body {
-	margin-top: 50px;
-	margin-bottom: 50px;
 	background: none;
 }
 
 .full {
-  background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  background: url(http://placehold.it/1920x1080) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+
+.globe-video {
+	height: 100%;
+}
+
+
+.players-club {
+	position: absolute;
+	width: 100%;
+	top: 10em;
+	padding: 10em;
+	margin: 0 0 auto;
+	color: white;
+	text-align: center;
 }
